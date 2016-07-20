@@ -7,6 +7,7 @@ import (
 	"strings"
 )
 
+//go run ucloud.go 1.txt
 func main() {
 	count := 0
 	for _, filename := range os.Args[1:] {
